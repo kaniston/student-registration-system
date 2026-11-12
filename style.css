@@ -1,0 +1,108 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    color: #1e293b;
+    padding: 30px 15px;
+}
+
+.container {
+    max-width: 1050px;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #1d4ed8;
+    margin-bottom: 10px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.07);
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #1e40af;
+}
+
+form {
+    display: grid;
+    gap: 12px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select {
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    width: 100%;
+}
+
+button {
+    padding: 13px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+.message {
+    margin-bottom: 15px;
+    color: #15803d;
+    font-weight: bold;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px;
+}
+
+th, td {
+    padding: 13px;
+    border-bottom: 1px solid #e2e8f0;
+    text-align: left;
+}
+
+th {
+    background: #eff6ff;
+    color: #1e40af;
+}
+
+@media (max-width: 600px) {
+    .card {
+        padding: 16px;
+    }
+
+    header h1 {
+        font-size: 23px;
+    }
+}
