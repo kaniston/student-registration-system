@@ -137,6 +137,43 @@ Stores activity records such as:
 - `student_deleted`
 
 This demonstrates the use of both relational and NoSQL databases in one application.
+## 🚀 How to Run Locally Using XAMPP
+
+Follow these steps to run the Student Registration System on your computer.
+
+### 1. Requirements
+- XAMPP installed on your computer.
+- Apache and MySQL services.
+
+### 2. Project Setup
+Make sure the project folder is placed inside the XAMPP `htdocs` directory:
+
+```text
+C:\xampp\htdocs\student-registration-system
+```
+
+### 3. Start XAMPP
+Make sure:
+- Open the XAMPP Control Panel.
+- Start **Apache**.
+- Start **MySQL**.
+
+### 4. Open the Application
+
+Open your browser and visit:
+
+**[Student Registration System](http://localhost/student-registration-system/)**
+
+Or copy this URL:
+
+```text
+http://localhost/student-registration-system/
+```
+
+### 5. Important Note
+Make sure Apache and MySQL are running before opening the application.
+
+**Note:** This is a local development link. It works only on your computer while the XAMPP services are running.
 
 ## Future Improvements
 
